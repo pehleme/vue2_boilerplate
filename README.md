@@ -1,2 +1,2 @@
-# vue2_boilerplate
+# Vue 2 Boilerplate
  
