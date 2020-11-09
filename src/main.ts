@@ -1,3 +1,5 @@
+import '@/main.scss';
+
 import { router } from '@/app/app-router';
 import { store } from '@/app/app-store';
 import App from '@/app/App.vue';

@@ -6,6 +6,9 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-@Component
+import { i18n } from '@/plugins';
+@Component({
+  head: { title: { inner: i18n.t('titles.home').toString() } },
+})
 export default class Home extends Vue {}
 </script>
