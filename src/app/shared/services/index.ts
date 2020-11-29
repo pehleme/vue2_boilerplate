@@ -1,4 +1,1 @@
-export {
-  ExampleService,
-  exampleService,
-} from '@/app/shared/services/example.service';
+export * from '@/app/shared/services/example.service';

@@ -1,12 +1,7 @@
-import { exampleModule } from '@/app/shared/modules';
-import { exampleService } from '@/app/shared/services';
-import { Rules } from '@/app/shared/utils';
+import * as modules from '@/app/shared/modules';
+import * as services from '@/app/shared/services';
 
 export const refsService = {
-  exampleService,
-  exampleModule,
-
-  static: {
-    rules: Rules,
-  },
+  exampleService: services.exampleService,
+  exampleModule: modules.exampleModule,
 };

@@ -6,9 +6,6 @@ module.exports = {
       args[0].title = process.env.VUE_APP_NAME;
       return args;
     });
-    config
-      .plugin('VuetifyLoaderPlugin')
-      .tap(() => [{ progressiveImages: true }]);
   },
   devServer: { port: process.env.PORT || 8080 },
   pluginOptions: {
@@ -24,5 +21,5 @@ module.exports = {
       enableInSFC: false,
     },
   },
-  transpileDependencies: ['vuetify', 'vuex-module-decorators'],
+  transpileDependencies: ['vuex-module-decorators'],
 };

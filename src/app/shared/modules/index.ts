@@ -1,4 +1,1 @@
-export {
-  ExampleModule,
-  exampleModule,
-} from '@/app/shared/modules/example.module';
+export * from '@/app/shared/modules/example.module';
