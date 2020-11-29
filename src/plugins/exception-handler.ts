@@ -1,4 +1,4 @@
-import { appLogger } from '@/app/shared/config';
+import { appLogger } from '@/app/config';
 import Vue from 'vue';
 
 Vue.config.errorHandler = (err, vm, info) => {

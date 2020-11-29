@@ -1,6 +1,7 @@
+import { env } from '@/environments';
 import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 
-const axiosRequestConfig: AxiosRequestConfig = {};
+const axiosRequestConfig: AxiosRequestConfig = { baseURL: env.baseUrl };
 const axiosInstance: AxiosInstance = axios.create(axiosRequestConfig);
 
 const authInterceptor = (config: AxiosRequestConfig) => config;

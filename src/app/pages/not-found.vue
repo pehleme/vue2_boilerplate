@@ -1,6 +1,6 @@
 <template>
   <div class="not-found">
-    <img alt="Vue logo" src="@/assets/logo.png" />
+    <img alt="Vue logo page not found" src="@/assets/img/logo.png" />
   </div>
 </template>
 

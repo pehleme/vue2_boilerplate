@@ -1,4 +1,4 @@
-import { HttpService } from '@/app/shared/config';
+import { HttpService } from '@/app/config';
 import { ExampleModel } from '@/app/shared/models';
 import { env } from '@/environments';
 
