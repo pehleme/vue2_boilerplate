@@ -1,6 +1,6 @@
 import { store } from '@/app/app-store';
 import { ExampleModel } from '@/app/shared/models';
-import { refsService as refs } from '@/app/shared';
+import { refs } from '@/app/shared';
 import {
   Action,
   getModule,
